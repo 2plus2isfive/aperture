@@ -15,7 +15,7 @@ body {
   display: none;
 }
 .background {
-  background-image: url("/img/Portal/wall1.jpg");
+  background-image: url("img/Portal/wall1.jpg");
   background-position: center center;
   background-repeat: repeat;
   width: 100%;
@@ -139,7 +139,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-image: url("/img/Portal/wall2.jpeg");
+  background-image: url("img/Portal/wall2.jpeg");
   background-position: center center;
   background-repeat: repeat;
   background-size: 14vw;
