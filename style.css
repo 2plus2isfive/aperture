@@ -42,10 +42,10 @@ body {
   width: 70%;
 }
 .title img {
-  filter: invert(1);
+  filter: invert(1) drop-shadow(0 0 0.5vw #000000ff);
   width: 60%;
-  opacity: 0.9;
-  padding: 5%;
+  opacity: 1;
+  padding: 2.5%;
 }
 .header {
   background-color: #27a7d890;
@@ -59,7 +59,7 @@ body {
 .header img {
   width: 8%;
   aspect-ratio: 1/1;
-  filter: grayscale(100%) brightness(100) drop-shadow(0 0 1vw #ffffff50);
+  filter: grayscale(100%) brightness(100) drop-shadow(0 0 0.5vw #00000000);
   opacity: 0.9;
   padding: 1%;
   transition: 0.75s;
@@ -67,7 +67,7 @@ body {
 }
 .header img:hover {
   transform: rotate(180deg);
-  filter: grayscale(100%) brightness(100) drop-shadow(0 0 0.5vw #00000050);
+  filter: grayscale(100%) brightness(100) drop-shadow(0 0 0.5vw #ffffff75);
 }
 .content:nth-child(even) .header {
   background-color: #ff9a0090;
@@ -103,7 +103,7 @@ body {
   font-size: 3vw;
   padding: 1% 3%;
   color: #ffffff;
-  text-shadow: 0 0 1vw #ffffff50;
+  text-shadow: 0 0 1vw #ffffff00;
   text-transform: uppercase;
 }
 .options a {
@@ -148,4 +148,26 @@ body {
 }
 .do-not {
   font-weight: 600;
+}
+p a .blue{
+  background-color: #27a7d890;
+  color:#fff;
+  text-decoration: none;
+  text-shadow:(0 0 0.1vw #fff);
+  transition:0.1s;
+  font-family: oswald;
+  text-transform: uppercase;
+  padding:0.5% 1%;
+  border-radius: 0.5vw;
+}
+p a .orange{
+  background-color: #ff9a0090;
+  color:#fff;
+  text-decoration: none;
+  text-shadow:(0 0 0.1vw #fff);
+  transition:0.1s;
+  font-family: oswald;
+  text-transform: uppercase;
+  padding:0.5% 1%;
+  border-radius: 0.5vw;
 }
