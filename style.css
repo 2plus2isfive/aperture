@@ -78,6 +78,7 @@ body {
   display: flex;
   width: 70%;
   font-family: montserrat;
+  font-weight:500;
   flex-direction: column;
   align-items: center;
 }
@@ -144,4 +145,7 @@ body {
   background-size: 14vw;
   opacity: 1;
   line-height: 0;
+}
+.do-not {
+  font-weight: 600;
 }
