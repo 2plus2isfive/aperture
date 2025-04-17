@@ -85,7 +85,7 @@ body {
   overflow-y:scroll;
   height:25vw;
   scrollbar-width: thin;
-  scrollbar-color: #00000050 #ffffff00;
+  scrollbar-color: #00000020 #ffffff00;
   width:100%;
 }
 .textContainer img {
