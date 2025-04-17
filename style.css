@@ -78,15 +78,15 @@ body {
   display: flex;
   width: 70%;
   font-family: montserrat;
-  font-weight:500;
+  font-weight: 500;
   flex-direction: column;
   align-items: center;
 }
 .textContainer {
   overflow-y: scroll;
   height: 25vw;
-  scrollbar-width: thin;
-  scrollbar-color: #00000020 #ffffff00;
+  scrollbar-width:thin;
+  scrollbar-color: #00000040 #ffffff00;
   width: 100%;
 }
 .textContainer img {
@@ -130,7 +130,7 @@ body {
 .footer {
   background-color: #000000bb;
   filter: drop-shadow(0 0 1vw #00000075);
-  font-family:montserrat;
+  font-family: montserrat;
 }
 .footerContent {
   font-size: 1.5vw;
@@ -149,25 +149,25 @@ body {
 .do-not {
   font-weight: 600;
 }
-p a .blue{
+p .blue {
   background-color: #27a7d890;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
-  text-shadow:(0 0 0.1vw #fff);
-  transition:0.1s;
+  text-shadow: (0 0 0.1vw #fff);
+  transition: 0.1s;
   font-family: oswald;
   text-transform: uppercase;
-  padding:0.5% 1%;
+  padding: 0% 0.5%;
   border-radius: 0.5vw;
 }
-p a .orange{
+p .orange {
   background-color: #ff9a0090;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
-  text-shadow:(0 0 0.1vw #fff);
-  transition:0.1s;
+  text-shadow: (0 0 0.1vw #fff);
+  transition: 0.1s;
   font-family: oswald;
   text-transform: uppercase;
-  padding:0.5% 1%;
+  padding: 0% 0.5%;
   border-radius: 0.5vw;
 }
