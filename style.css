@@ -87,12 +87,12 @@ body {
   height: 25vw;
   scrollbar-width:thin;
   scrollbar-color: #00000040 #ffffff00;
-  width: 100%;
 }
-.textContainer img {
+/* .textContainer img {
   filter: grayscale(100%) contrast(0) brightness(0%);
   opacity: 0.2;
 }
+  */
 .content p {
   padding: 1%;
   text-align: justify;
