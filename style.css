@@ -40,6 +40,7 @@ body {
   display: flex;
   justify-content: center;
   width: 70%;
+  border-radius: 0.5vw;
 }
 .title img {
   filter: invert(1) drop-shadow(0 0 0.5vw #000000ff);
@@ -55,6 +56,7 @@ body {
   width: 100%;
   transition: 0.2s;
   user-select: none;
+  border-radius: 0.5vw 0.5vw 0 0;
 }
 .header img {
   width: 8%;
@@ -67,7 +69,7 @@ body {
 }
 .header img:hover {
   transform: rotate(180deg);
-  filter: grayscale(100%) brightness(100) drop-shadow(0 0 0.5vw #ffffff75);
+  filter: grayscale(100%) brightness(100) drop-shadow(0 0 0.5vw #ffffff00);
 }
 .content:nth-child(even) .header {
   background-color: #ff9a0090;
@@ -81,6 +83,7 @@ body {
   font-weight: 500;
   flex-direction: column;
   align-items: center;
+  border-radius: 0.5vw;
 }
 .textContainer {
   overflow-y: scroll;
@@ -113,19 +116,23 @@ body {
   cursor: pointer;
   font-family: Oswald;
   font-size: 3vw;
-  padding: 1% 4%;
+  padding: 0.5% 4%;
   text-transform: uppercase;
+  border-radius: 0.5vw;
 }
 .options a:hover {
   background-color: #00000015;
+  border-radius: 0.5vw;
 }
 .options {
   background-color: #dedede;
   margin-top: 1%;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 69%;
   font-family: montserrat;
+  border-radius: 0.5vw;
+  padding: 0.5%;
 }
 .footer {
   background-color: #000000bb;
